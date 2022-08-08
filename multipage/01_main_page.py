@@ -1,6 +1,3 @@
-import streamlit as st
-from PIL import Image
-
 def main_page():    
     st.markdown("#Main Page")
     st.sidebar.markdown("Main page")
@@ -57,7 +54,3 @@ st.write("""Dengan makin banyaknya penggunaan komputer seperti desktop, laptop, 
 Hal ini memungkinkan bahwa akan semakin meningkat pula ancaman serangan oleh orang-orang yang tidak bertanggung jawab. 
 Kerugian yang ditimbulkan oleh serangan tersebut juga akan menjadi besar apabila kita tidak mengetahui bahwa kita sedang dalam penyerangan orang-orang yang tidak bertanggung jawab.
 Untuk itu, kami akan membantu kalian untuk mengenal apa itu kejahatan teknologi informasi (cybercrime), jenis-jenis cybercrime, serta cara menghindarinya.""")
-#if st.button('Start'):
-#    st.write('move to page 2')
-#else:
-#   st.write('Stay in main_page')
