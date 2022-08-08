@@ -22,7 +22,7 @@ def page_5():
     st.sidebar("Page 5")
 
 #apply photo
-image = Image.open(r"group11\asset\banner.jpg", "r")
+image = Image.open(r"group11/asset/banner.jpg", "r")
 st.image(image)
 
 st.title('Women In Tech - Group 11')
