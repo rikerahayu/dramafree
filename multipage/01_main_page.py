@@ -18,9 +18,7 @@ def page_5():
     st.markdown("Page 5")
     st.sidebar("Page 5")
 
-#apply photo
-image = Image.open(r"group11/asset/banner.jpg", "r")
-st.image(image)
+![This is an image](https://drive.google.com/file/d/1SGyXVxULaqB4dXroSycEkfTrwrS2QFTP/view?usp=sharing)
 
 st.title('Women In Tech - Group 11')
 st.markdown(
